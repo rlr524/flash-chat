@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
         if let email = emailTextfield.text, let password = passwordTextfield.text {
             Auth.auth().signIn(withEmail: email, password: password) { _, error in
                 if let e = error {
+                    // Log the error and present it to the user
                     print(e)
                     let alert = UIAlertController(title: "Error", message: e.localizedDescription,
                                                   preferredStyle: .alert)
@@ -28,6 +29,7 @@ class LoginViewController: UIViewController {
                     }))
                     self.present(alert, animated: true, completion: nil)
                 } else {
+                    // Navigate to the chat view controller
                     self.performSegue(withIdentifier: "LoginToChat", sender: self)
                 }
             }

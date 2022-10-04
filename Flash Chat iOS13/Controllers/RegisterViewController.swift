@@ -18,6 +18,7 @@ class RegisterViewController: UIViewController {
         if let email = emailTextfield.text, let password = passwordTextfield.text {
             Auth.auth().createUser(withEmail: email, password: password) { _, error in
                 if let e = error {
+                    // Log the error and present it to the user
                     print(e)
                         let alert = UIAlertController(title: "Error",
                                                   message: e.localizedDescription,
