@@ -21,6 +21,7 @@
 		D419E09B28B8078100A14B1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D419E09A28B8078100A14B1C /* GoogleService-Info.plist */; };
 		D41F327129428CD600B7FD60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F327029428CD600B7FD60 /* Constants.swift */; };
 		D430CD8A28BE7769002A315F /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430CD8928BE7769002A315F /* TestController.swift */; };
+		D4BA6DF8294680BB00EB8307 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA6DF7294680BB00EB8307 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D419E09A28B8078100A14B1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D41F327029428CD600B7FD60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D430CD8928BE7769002A315F /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		D4BA6DF7294680BB00EB8307 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		D41F32742942988700B7FD60 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D4BA6DF7294680BB00EB8307 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */,
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
+				D4BA6DF8294680BB00EB8307 /* Message.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				D41F327129428CD600B7FD60 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
