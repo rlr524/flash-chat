@@ -17,8 +17,8 @@ class ChatViewController: UIViewController {
     var messages: [Message] = [
         Message(sender: "rob@robranf.com", body: "Hello, Madison"),
         Message(sender: "robranf@gmail.com", body: "Have you been a good?"),
-        Message(sender: "robranf@gmail.com", body: "We may have grilled cheese" +
-                " sandwiches for dinner tonight.")
+        Message(sender: "robranf@gmail.com",
+                body: "We may have grilled cheese sandwiches for dinner tonight.")
     ]
     
     override func viewDidLoad() {
@@ -30,6 +30,9 @@ class ChatViewController: UIViewController {
         navigationItem.title = K.appName
         // Hide <Back button
         navigationItem.hidesBackButton = true
+        
+        tableView.register(UINib(nibName: K.cellNibName, bundle: nil),
+                           forCellReuseIdentifier: K.cellIdentifier)
     }
 
     @IBAction func sendPressed(_ sender: UIButton) {
@@ -61,15 +64,16 @@ extension ChatViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath)
-        cell.textLabel?.text = messages[indexPath.row].body
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier,
+                                                 for: indexPath) as! MessageCell
+        cell.label.text = messages[indexPath.row].body
         return cell
     }
 }
 
 // Use this if we want the user to be able to interact with individual rows
-//extension ChatViewController: UITableViewDelegate {
+// extension ChatViewController: UITableViewDelegate {
 //    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        print(indexPath.row)
 //    }
-//}
+// }

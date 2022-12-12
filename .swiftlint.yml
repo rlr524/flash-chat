@@ -5,6 +5,7 @@ excluded:
 disabled_rules:
   - colon
   - trailing_whitespace
+  - force_cast
 
 opt_in_rules:
   - force_unwrapping

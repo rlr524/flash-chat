@@ -22,6 +22,8 @@
 		D41F327129428CD600B7FD60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F327029428CD600B7FD60 /* Constants.swift */; };
 		D430CD8A28BE7769002A315F /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430CD8928BE7769002A315F /* TestController.swift */; };
 		D4BA6DF8294680BB00EB8307 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA6DF7294680BB00EB8307 /* Message.swift */; };
+		D4BA6DFB2947DB5E00EB8307 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA6DF92947DB5E00EB8307 /* MessageCell.swift */; };
+		D4BA6DFC2947DB5E00EB8307 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BA6DFA2947DB5E00EB8307 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		D41F327029428CD600B7FD60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D430CD8928BE7769002A315F /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		D4BA6DF7294680BB00EB8307 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D4BA6DF92947DB5E00EB8307 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D4BA6DFA2947DB5E00EB8307 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
+				D4BA6DF92947DB5E00EB8307 /* MessageCell.swift */,
+				D4BA6DFA2947DB5E00EB8307 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
+				D4BA6DFC2947DB5E00EB8307 /* MessageCell.xib in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				D419E09B28B8078100A14B1C /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
@@ -275,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */,
+				D4BA6DFB2947DB5E00EB8307 /* MessageCell.swift in Sources */,
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				D4BA6DF8294680BB00EB8307 /* Message.swift in Sources */,
