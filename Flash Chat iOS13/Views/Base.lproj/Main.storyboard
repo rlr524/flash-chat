@@ -287,7 +287,7 @@
                                 <rect key="frame" x="0.0" y="710" width="393" height="144"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UWj-GQ-Vph">
-                                        <rect key="frame" x="34" y="48" width="267" height="34"/>
+                                        <rect key="frame" x="34" y="48" width="270" height="34"/>
                                         <color key="textColor" name="BrandPurple"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -307,7 +307,7 @@
                                 <color key="backgroundColor" name="BrandPurple"/>
                                 <constraints>
                                     <constraint firstItem="UWj-GQ-Vph" firstAttribute="leading" secondItem="xlo-0G-XA6" secondAttribute="leading" constant="34" id="6a7-vM-8jV"/>
-                                    <constraint firstItem="pym-e9-R2r" firstAttribute="leading" secondItem="UWj-GQ-Vph" secondAttribute="trailing" constant="3" id="B6c-Na-YYH"/>
+                                    <constraint firstItem="pym-e9-R2r" firstAttribute="leading" relation="lessThanOrEqual" secondItem="UWj-GQ-Vph" secondAttribute="trailing" id="B6c-Na-YYH"/>
                                     <constraint firstItem="UWj-GQ-Vph" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="48" id="Tbz-ze-hak"/>
                                     <constraint firstItem="UWj-GQ-Vph" firstAttribute="centerY" secondItem="pym-e9-R2r" secondAttribute="centerY" id="Tw2-KT-UXW"/>
                                     <constraint firstAttribute="trailing" secondItem="pym-e9-R2r" secondAttribute="trailing" constant="49" id="dMD-E1-8PD"/>
