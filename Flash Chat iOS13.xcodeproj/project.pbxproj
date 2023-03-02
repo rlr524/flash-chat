@@ -19,7 +19,6 @@
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
 		505D69CCF8A349C3B3A7675E /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA8B77F3E53E558DDA0FF7A /* Pods_Flash_Chat_iOS13.framework */; };
 		D41F327129428CD600B7FD60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F327029428CD600B7FD60 /* Constants.swift */; };
-		D430CD8A28BE7769002A315F /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430CD8928BE7769002A315F /* TestController.swift */; };
 		D4BA6DF8294680BB00EB8307 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA6DF7294680BB00EB8307 /* Message.swift */; };
 		D4BA6DFB2947DB5E00EB8307 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA6DF92947DB5E00EB8307 /* MessageCell.swift */; };
 		D4BA6DFC2947DB5E00EB8307 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BA6DFA2947DB5E00EB8307 /* MessageCell.xib */; };
@@ -43,7 +42,6 @@
 		8B43FD3EB6D9D2CFB93FE3AD /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 		BF7EE5077EFDAB2FDB44140F /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
 		D41F327029428CD600B7FD60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		D430CD8928BE7769002A315F /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 		D4BA6DF7294680BB00EB8307 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D4BA6DF92947DB5E00EB8307 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		D4BA6DFA2947DB5E00EB8307 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				0B62818C235DF00B00E35CAF /* RegisterViewController.swift */,
 				0B62818E235DF01000E35CAF /* LoginViewController.swift */,
 				0B628190235DF01B00E35CAF /* ChatViewController.swift */,
-				D430CD8928BE7769002A315F /* TestController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -290,7 +287,6 @@
 				D41F327129428CD600B7FD60 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
-				D430CD8A28BE7769002A315F /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
